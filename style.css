@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom right, #3a016f,#5b2da6,#b473fa);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+#panel{
+    display: flex;
+}
+#hour{
+    height: 300px;
+    width: 280px;
+    margin-right: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 200px;
+}
+#minute{
+    height: 300px;
+    width: 280px;
+    margin-right: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 200px;
+}
+#second{
+    height: 300px;
+    width: 280px;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 200px;
+}
+button{
+    cursor: pointer;
+    transition: all ease 0.4s;
+}
+.start-btn{
+    height: 60px;
+    width: 880px;
+    border-radius: 10px;
+    border: none;
+    font-size: 22px;
+    font-weight: 600;
+}
+button:hover{
+    filter: brightness(80%);
+}
+#btn-panel{
+    display: flex;
+    gap: 20px;
+    /* align-items: flex-start; */
+}
+.modified-btn{
+    width: 430px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    font-size: 22px;
+    font-weight: 600;
+}
+.reset-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+#headings{
+    display: flex;
+    gap: 20px;
+}
+#headings h2{
+    height: 50px;
+    text-align: center;
+    width: 280px;
+    background-color: #fff;
+    font-size: 25px;
+    border-radius: 5px ;
+    padding: 7px ;
+}
